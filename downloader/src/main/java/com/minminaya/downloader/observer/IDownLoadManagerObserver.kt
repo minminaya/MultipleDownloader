@@ -1,4 +1,6 @@
-package com.minminaya.downloader
+package com.minminaya.downloader.observer
+
+import com.minminaya.downloader.IDownloadEntity
 
 interface IDownLoadManagerObserver {
     fun onDownLoadWait(material: IDownloadEntity)

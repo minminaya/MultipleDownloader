@@ -1,4 +1,4 @@
-package com.minminaya.downloader
+package com.minminaya.downloader.observer
 
 interface IMultipleDownLoaderObserver : IDownLoadManagerObserver {
     fun onAllDownLoadComplete(succss: Int, failure: Int)

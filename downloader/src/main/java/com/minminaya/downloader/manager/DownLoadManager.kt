@@ -1,4 +1,7 @@
-package com.minminaya.downloader
+package com.minminaya.downloader.manager
+
+import com.minminaya.downloader.IDownloadEntity
+import com.minminaya.downloader.observer.IMultipleDownLoaderObserver
 
 class DownLoadManager : IMultipleDownLoaderObserver {
     override fun onAllDownLoadComplete(succss: Int, failure: Int) {
